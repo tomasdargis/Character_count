@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.container {
+    width: 500px;
+    height: 280px;
+    background-color: #005490;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.count {
+    font-size: 2rem;
+    border: 2px double white;
+    padding: 10px;
+}
+
+hr {
+    width: 90%;
+}
+input {
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
